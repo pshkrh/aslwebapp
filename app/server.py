@@ -8,10 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/yxd81c252101au8/aslnewstage2.pth?raw=1'
-model_file_name = 'model'
+model_file_url = 'https://www.dropbox.com/s/vl72yiaiqlrbbu2/aslcomp.pth?raw=1'
+model_file_name = 'aslcomp'
 
-classes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'del', 'nothing', 'space']
+classes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y']
 path = Path(__file__).parent
 
 app = Starlette()
